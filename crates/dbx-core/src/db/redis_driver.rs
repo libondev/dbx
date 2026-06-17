@@ -1037,7 +1037,6 @@ where
                     })
                     .collect();
                 return Ok(RedisCommandResult { command, safety, value: serde_json::Value::Array(pairs) });
-
             }
         }
     }
